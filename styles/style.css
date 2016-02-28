@@ -1,0 +1,12 @@
+.blur {
+    filter: blur(5px);
+    -webkit-filter: blur(0px);
+
+}
+.gr {
+    -webkit-filter: grayscale(1);
+
+}
+#canvas {
+    background-color: #178;
+}
