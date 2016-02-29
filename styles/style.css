@@ -1,14 +1,30 @@
 body {
     background-color: #567;
 }
+ul {
+    list-style: none;
+}
 .blur {
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
-.center {
+/*.center {
     width: 80%;
     margin: 20px auto;
+}*/
+.adapt {
+    position: relative;
+    overflow: hidden;
 }
 img {
-    width: 100%;
+    position: absolute;
+
+    /*margin: 0 auto;*/
+}
+.slide-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    background-color: #f00;
 }

@@ -1,5 +1,16 @@
 var $img = $('#image');
 $img.addClass('blur');
+
+//适应移动屏幕
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+var posl = (width - $img.width()) / 2,
+    post = (height - $img.height()) / 2;
+$('.adapt').width(width).height(height);
+$img.css({'left': posl + 'px', 'top': post + 'px'});
+
+
 var value;
 var pattern;
 $(function() {
