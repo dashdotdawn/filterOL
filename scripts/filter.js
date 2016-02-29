@@ -11,8 +11,6 @@ $('.adapt').width(width).height(height);
 $img.css({'left': posl + 'px', 'top': post + 'px'});
 
 
-var value;
-var pattern;
 $(function() {
     //获取所有滑动条
     var $input = $('#menu input');
@@ -22,6 +20,9 @@ $(function() {
         });
     }
 });
+
+var value;
+var pattern;
 //根据滑动条的值设置图像的css
 function slide(id, obj) {
     var str = $img.css("-webkit-filter");
