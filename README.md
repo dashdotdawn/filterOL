@@ -18,8 +18,8 @@ I used css3 filter and html5 range slider on it, for practice and for fun:)
 
 * webkit内核的浏览器
 * 已测试
-* <img src="http://7xpyd5.com1.z0.glb.clouddn.com/filterOL%2FfOL-mb1.jpg" style="width: 400px"><img src="http://7xpyd5.com1.z0.glb.clouddn.com/filterOL%2FfOL-mb2.jpg" style="width: 400px">安卓原生浏览器
-* <img src="http://7xpyd5.com1.z0.glb.clouddn.com/filterOL%2FfOL-pc.png" style="width: 800px">safari及chrome浏览器
+* <img src="http://7xpyd5.com1.z0.glb.clouddn.com/filterOL%2FfOL-mb.jpg">手机端安卓原生浏览器
+* <img src="http://7xpyd5.com1.z0.glb.clouddn.com/filterOL%2FfOL-pc.png">pc端safari及chrome浏览器
 
 ## 其他
 练习之作，看到canvas的时候突然想尝试写一下功能集成，实现的时候换了css3的filter来实现。
