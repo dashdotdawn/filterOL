@@ -1,6 +1,7 @@
+var $img = $('#image');
+$img.addClass('blur');
+
 $(function() {
-    var $img = $('#image');
-    $img.addClass('blur');
 
     //适应移动屏幕
     var width = window.innerWidth;
