@@ -1,4 +1,14 @@
+body {
+    background-color: #567;
+}
 .blur {
     filter: blur(0px);
     -webkit-filter: blur(0px);
+}
+.center {
+    width: 80%;
+    margin: 20px auto;
+}
+img {
+    width: 100%;
 }
