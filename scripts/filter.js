@@ -15,7 +15,7 @@ var value;
 var pattern;
 $(function() {
     //获取所有滑动条
-    var $input = $('.slide-wrap input');
+    var $input = $('#menu input');
     for (var i = 0, len =  $input.length; i < len; i++ ) {
         $($input[i]).bind('change', function() {
             slide(this.id, $(this));
